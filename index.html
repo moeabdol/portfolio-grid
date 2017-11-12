@@ -5,6 +5,7 @@
   <title>Portfolio</title>
   <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
   <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="node_modules/lightbox2/dist/css/lightbox.min.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -47,7 +48,8 @@
                   data-toggle="collapse" data-target="#resume">
                   <i class="fa fa-graduation-cap d-block"></i> Resume
                 </div>
-                <div class="port-item p-4 bg-warning p-lg-5">
+                <div class="port-item p-4 bg-warning p-lg-5"
+                  data-toggle="collapse" data-target="#work">
                   <i class="fa fa-folder-open d-block"></i> Work
                 </div>
                 <div class="port-item p-4 bg-danger p-lg-5">
@@ -183,6 +185,70 @@
       </div>
     </div>
 
+    <!-- Work -->
+    <div id="work" class="collapse">
+      <div class="card card-body bg-warning py-5">
+        <h3>My Portfolio</h3>
+        <p>
+          Ipsum repellendus facere voluptatibus aperiam tenetur! Dignissimos
+          labore dolore omnis cumque deserunt necessitatibus. Libero atque?
+        </p>
+      </div>
+
+      <div class="card card-body py-5">
+        <h3>What have I built</h3>
+        <p>
+          Sit molestiae explicabo eum reiciendis deleniti Incidunt nobis neque
+          est maiores magnam aspernatur Nemo natus
+        </p>
+        <div class="row no-gutters">
+          <div class="col-md-3">
+            <a href="https://static.pexels.com/photos/577585/pexels-photo-577585.jpeg" data-lightbox="image1">
+              <img class="img-fluid" src="https://static.pexels.com/photos/577585/pexels-photo-577585.jpeg" alt="">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="https://static.pexels.com/photos/574077/pexels-photo-574077.jpeg" data-lightbox="image1">
+              <img class="img-fluid" src="https://static.pexels.com/photos/574077/pexels-photo-574077.jpeg" alt="">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="https://static.pexels.com/photos/574070/pexels-photo-574070.jpeg" data-lightbox="image1">
+              <img class="img-fluid" src="https://static.pexels.com/photos/574070/pexels-photo-574070.jpeg" alt="">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="https://static.pexels.com/photos/574080/pexels-photo-574080.jpeg" data-lightbox="image1">
+              <img class="img-fluid" src="https://static.pexels.com/photos/574080/pexels-photo-574080.jpeg" alt="">
+            </a>
+          </div>
+        </div>
+
+        <div class="row no-gutters">
+          <div class="col-md-3">
+            <a href="https://static.pexels.com/photos/574080/pexels-photo-574080.jpeg" data-lightbox="image1">
+              <img class="img-fluid" src="https://static.pexels.com/photos/574080/pexels-photo-574080.jpeg" alt="">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="https://static.pexels.com/photos/574070/pexels-photo-574070.jpeg" data-lightbox="image1">
+              <img class="img-fluid" src="https://static.pexels.com/photos/574070/pexels-photo-574070.jpeg" alt="">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="https://static.pexels.com/photos/574077/pexels-photo-574077.jpeg" data-lightbox="image1">
+              <img class="img-fluid" src="https://static.pexels.com/photos/574077/pexels-photo-574077.jpeg" alt="">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="https://static.pexels.com/photos/577585/pexels-photo-577585.jpeg" data-lightbox="image1">
+              <img class="img-fluid" src="https://static.pexels.com/photos/577585/pexels-photo-577585.jpeg" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Footer -->
     <footer id="main-footer" class="p-5 bg-dark text-white">
       <div class="row">
@@ -199,6 +265,7 @@
   <script src="node_modules/jquery/dist/jquery.min.js"></script>
   <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="node_modules/lightbox2/dist/js/lightbox.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
